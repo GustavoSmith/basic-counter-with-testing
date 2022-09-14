@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de <CounterApp/> Debe matchear con el snapshot 1`] = `
+<div>
+  <main
+    class="flex h-screen flex-col items-center justify-center gap-24 bg-slate-800 text-white"
+  >
+    <h1
+      class="text-semibol text-6xl"
+    >
+      CounterApp
+    </h1>
+    <h2
+      aria-label="value"
+      class="rounded-full bg-blue-600 px-16 py-2 text-3xl font-semibold text-white"
+    >
+      20
+    </h2>
+    <div
+      class="flex gap-6"
+    >
+      <button
+        aria-label="increase"
+        class="rounded-xl border bg-red-500 px-4 text-white"
+      >
+        +1
+      </button>
+      <button
+        aria-label="decrease"
+        class="rounded-xl border bg-red-500 px-4 text-white"
+      >
+        -1
+      </button>
+      <button
+        aria-label="reset"
+        class="rounded-xl border bg-red-500 px-4 text-white"
+      >
+        Reset
+      </button>
+    </div>
+  </main>
+</div>
+`;
